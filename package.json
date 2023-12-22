@@ -1,22 +1,23 @@
 {
   "name": "random-snow-globe-test-anderson",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "A description of your project",
   "main": "src/index.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "dependencies": {
-    "@react-three/drei": "latest",
-    "@react-three/fiber": "latest",
-    "@react-three/postprocessing": "latest",
+    "@react-three/drei": "7.23.1",
+    "@react-three/fiber": "7.0.6",
+    "@react-three/postprocessing": "2.0.3",
     "@types/three": "0.150.0",
     "gsap": "3.12.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1",
-    "three": "latest",
+    "three": "0.135.0",
     "@lumaai/luma-web": "0.1.15"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
